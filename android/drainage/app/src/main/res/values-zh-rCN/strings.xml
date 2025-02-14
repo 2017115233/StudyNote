@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">排水</string>
+    <string name="start_drainage">立即排水</string>
+    <string name="ont_key_drainage">一键排水</string>
+    <string name="drainage_tip1">当手表接触水使用后，请使用此功能：</string>
+    <string name="drainage_tip2">1、可以排出喇叭口残留的水。</string>
+    <string name="drainage_tip3">2、避免因喇叭口残留的水导致声音变弱或变小的问题。</string>
+    <string name="drainaging1">自动排水中</string>
+    <string name="drainaging2">甩动手表加快水滴从喇叭口排出</string>
+</resources>
