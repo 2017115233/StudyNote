@@ -1,0 +1,17 @@
+创建密钥：统一使用 wakeup
+
+
+abd 启动模拟器 sdk的模拟器路径下唤起cmd环境 C:\Users\Administrator\AppData\Local\Android\Sdk\emulator
+emulator -avd watch_API_27 -writable-system
+
+另外启动一个cmd环境
+adb root
+adb remount
+如果提示 adb reboot 请执行一遍 如果没有提示 下一步推送apl
+adb push E:\Android\longpressselect\app\build\outputs\apk\debug /system/app/app-debug
+如果报错 remote couldn't create file: Read-only file system 说明旧apk同名存在 请先删除或者新推送的改名
+adb shell rm -rf /system/app/app-debug/debug/app-debug.apk
+
+推送完成后执行adb reboot
+adb reboot
+
