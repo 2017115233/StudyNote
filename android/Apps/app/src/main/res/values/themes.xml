@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- 状态栏颜色 -->
+        <item name="android:statusBarColor">@color/black</item>
+        <!-- 全屏设置 -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <!-- 禁用边缘效果 -->
+        <item name="android:overScrollMode">never</item>
+        <!-- 禁用边缘闪光 -->
+        <item name="android:colorEdgeEffect">@android:color/transparent</item>
+
+        <!-- 禁用垂直滚动条 -->
+        <item name="android:scrollbarThumbVertical">@null</item>
+        <!-- 禁用水平滚动条 -->
+        <item name="android:scrollbarThumbHorizontal">@null</item>
+        <!-- 可选：禁用滚动条轨道 -->
+        <item name="android:scrollbarTrackVertical">@null</item>
+        <item name="android:scrollbarTrackHorizontal">@null</item>
+
+    </style>
+</resources>
