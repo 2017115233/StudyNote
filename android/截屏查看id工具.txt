@@ -1,0 +1,5 @@
+C:\Users\Administrator\AppData\Local\Android\Sdk\tools\bin
+
+的
+
+uiautomatorviewer.bat
